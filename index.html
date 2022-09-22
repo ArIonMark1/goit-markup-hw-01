@@ -19,10 +19,8 @@
     <!-- Шапка сайту -->
     <header>
       <nav>
+        <a href="/" lang="en" class="logo"><span>Web</span>Studio</a>
         <ul>
-          <li>
-            <a href="/" lang="en" class="logo"><span>Web</span>Studio</a>
-          </li>
           <li>
             <a href="#">Студія</a>
           </li>
@@ -52,105 +50,101 @@
         <button type="button">Замовити послугу</button>
       </section>
       <!-- Перелік особливостей компанії -->
-      <ul>
-        <li>
-          <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
-          <p>
-            Ідейні міркування, та навіть початок повсякденної роботи з
-            формування позиції.
-          </p>
-        </li>
-        <li>
-          <h3>ПУНКТУАЛЬНІСТЬ</h3>
-          <p>
-            Завдання організації, особливо рамки і місце навчання кадрів тягне у
-            себе.
-          </p>
-        </li>
-        <li>
-          <h3>ПЛАНУВАННЯ</h3>
-          <p>Так само консультація з широким активом значною мірою зумовлює.</p>
-        </li>
-        <li>
-          <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-          <p>
-            Значимість цих проблем настільки очевидна, що реалізація планових
-            завдань.
-          </p>
-        </li>
-      </ul>
+      <section>
+        <ul>
+          <li>
+            <h3>УВАГА ДО ДЕТАЛЕЙ</h3>
+            <p>
+              Ідейні міркування, та навіть початок повсякденної роботи з
+              формування позиції.
+            </p>
+          </li>
+          <li>
+            <h3>ПУНКТУАЛЬНІСТЬ</h3>
+            <p>
+              Завдання організації, особливо рамки і місце навчання кадрів тягне
+              у себе.
+            </p>
+          </li>
+          <li>
+            <h3>ПЛАНУВАННЯ</h3>
+            <p>
+              Так само консультація з широким активом значною мірою зумовлює.
+            </p>
+          </li>
+          <li>
+            <h3>СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+            <p>
+              Значимість цих проблем настільки очевидна, що реалізація планових
+              завдань.
+            </p>
+          </li>
+        </ul>
+      </section>
       <!-- Перелік стеку компанії -->
       <section>
         <h2>Чим ми займаємося</h2>
-        <div>
-          <img src="./images/desctop.jpg" alt="desctop adds" width="300" />
-        </div>
-        <div>
-          <img src="./images/mobile.jpg" alt="mobile adds" width="300" />
-        </div>
-        <div>
-          <img src="./images/design.jpg" alt="design adds" width="300" />
-        </div>
+        <ul>
+          <li>
+            <img
+              src="./images/desctop.jpg"
+              alt="десктопні додатки"
+              width="300"
+            />
+          </li>
+          <li>
+            <img src="./images/mobile.jpg" alt="мобільні додатки" width="300" />
+          </li>
+          <li>
+            <img
+              src="./images/design.jpg"
+              alt="дезайнерські роботи"
+              width="300"
+            />
+          </li>
+        </ul>
       </section>
       <!-- Дані працівників компанії -->
       <section>
         <h2>Наша команда</h2>
-
-        <article class="team-card">
-          <figure>
+        <ul>
+          <li>
             <img
               src="./images/worker1.jpg"
-              alt="an employee of the company"
+              alt="працівник компанії"
               width="300"
             />
-            <figcaption>
-              <h4>Ігор Дем'яненко</h4>
-              <p>Product Designer</p>
-            </figcaption>
-          </figure>
-        </article>
-
-        <article class="team-card">
-          <figure>
+            <h3>Ігор Дем'яненко</h3>
+            <p>Product Designer</p>
+          </li>
+          <li>
             <img
               src="./images/worker2.jpg"
-              alt="an employee of the company"
+              alt="працівник компанії"
               width="300"
             />
-            <figcaption>
-              <h4>Ольга Рєпіна</h4>
-              <p>Frontend Developer</p>
-            </figcaption>
-          </figure>
-        </article>
-
-        <article class="team-card">
-          <figure>
+            <h3>Ольга Рєпіна</h3>
+            <p>Frontend Developer</p>
+          </li>
+          <li>
             <img
               src="./images/worker3.jpg"
-              alt="an employee of the company"
+              alt="працівник компанії"
               width="300"
             />
-            <figcaption>
-              <h4>Микола Тарасов</h4>
-              <p>Marketing</p>
-            </figcaption>
-          </figure>
-        </article>
-
-        <article class="team-card">
-          <figure>
+            <h3>Микола Тарасов</h3>
+            <p>Marketing</p>
+          </li>
+          <li>
             <img
               src="./images/worker4.jpg"
-              alt="an employee of the company"
+              alt="працівник компанії"
               width="300"
             />
-            <figcaption>
-              <h4>Михайло Єрмаков</h4>
-              <p>UI Designer</p>
-            </figcaption>
-          </figure>
-        </article>
+            <h3>Михайло Єрмаков</h3>
+            <p>UI Designer</p>
+          </li>
+        </ul>
       </section>
     </main>
 
@@ -159,9 +153,10 @@
       <a href="/" lang="en" class="logo"><span>Web</span>Studio</a>
       <address>
         <ul>
-          <li>м. Київ, пр-т Лесі Українки, 26</li>
-          <li>info@devstudio.com</li>
-          <li>+38 096 111 11 11</li>
+          <!-- потім можливо зробити лінк на геолокацію в гугл картах -->
+          <li><a href="/">м. Київ, пр-т Лесі Українки, 26</a></li>
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>
